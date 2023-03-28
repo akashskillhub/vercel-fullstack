@@ -60,3 +60,5 @@ mongoose.connection.on("error", err => {
         message: msg
     })
 })
+
+module.exports = app
