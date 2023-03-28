@@ -1,0 +1,30 @@
+24-03-2023 	 15:02:41	TypeError	Cannot read properties of null (reading 'products')	POST	/order/place	http://localhost:3000
+20-03-2023 	 16:04:53	TypeError	Assignment to constant variable.	PUT	/products/update-product/6418369af9d4eb1c879323dc	undefined
+20-03-2023 	 15:47:17	JsonWebTokenError	jwt malformed	POST	/products/add-product	undefined
+19-03-2023 	 14:11:26	undefined	undefined	GET	/contacts	http://127.0.0.1:5173
+19-03-2023 	 14:11:26	undefined	undefined	GET	/appoinment	http://127.0.0.1:5173
+19-03-2023 	 00:51:48	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+19-03-2023 	 00:51:43	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+19-03-2023 	 00:51:43	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+19-03-2023 	 00:51:41	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+19-03-2023 	 00:50:51	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+19-03-2023 	 00:49:53	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+19-03-2023 	 00:49:50	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+19-03-2023 	 00:47:57	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+19-03-2023 	 00:39:39	JsonWebTokenError	jwt must be provided	GET	/order/order-history	undefined
+18-03-2023 	 17:01:00	CastError	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "product"	PUT	/products/update-product/undefined	http://localhost:3000
+18-03-2023 	 16:59:30	CastError	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "product"	PUT	/products/update-product/undefined	http://localhost:3000
+18-03-2023 	 16:32:42	CastError	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "product"	PUT	/products/update-product/undefined	http://localhost:3000
+18-03-2023 	 16:32:29	CastError	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "product"	PUT	/products/update-product/undefined	http://localhost:3000
+18-03-2023 	 16:29:30	CastError	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "product"	PUT	/products/update-product/undefined	http://localhost:3000
+18-03-2023 	 15:54:45	CastError	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "product"	PUT	/products/update-product-image/undefined	http://localhost:3000
+18-03-2023 	 15:45:50	CastError	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "product"	PUT	/products/update-product-image/undefined	http://localhost:3000
+18-03-2023 	 15:45:38	CastError	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "product"	PUT	/products/update-product-image/undefined	http://localhost:3000
+16-03-2023 	 14:03:48	JsonWebTokenError	jwt malformed	POST	/products/add-product	http://localhost:3000
+16-03-2023 	 14:02:52	JsonWebTokenError	jwt malformed	POST	/products/add-product	http://localhost:3000
+14-03-2023 	 15:22:04	JsonWebTokenError	jwt must be provided	GET	/user/profile	http://localhost:3000
+14-03-2023 	 15:22:04	JsonWebTokenError	jwt must be provided	GET	/user/profile	http://localhost:3000
+13-03-2023 	 07:27:22	TokenExpiredError	jwt expired	GET	/order/order-history	http://localhost:3000
+13-03-2023 	 07:27:22	TokenExpiredError	jwt expired	GET	/order/order-history	http://localhost:3000
+13-03-2023 	 07:27:18	TokenExpiredError	jwt expired	GET	/cart/cart-history	http://localhost:3000
+13-03-2023 	 07:27:02	TokenExpiredError	jwt expired	GET	/cart/cart-history	http://localhost:3000
