@@ -26,9 +26,7 @@ app.use(cors({
         const allowed = [
             "http://localhost:5173",
             "http://localhost:3000",
-            // "http://localhost:5000",
-            "https://www.google.com",
-            // "https://www.google.com/"
+            "https://vercel-fullstack-ten.vercel.app",
         ]
         if (allowed.indexOf(o) !== -1 || !o) {
             cb(null, true)
@@ -38,17 +36,14 @@ app.use(cors({
     }
 }))
 
-app.use("/user", require("./routes/userRoute"))
-app.use("/cart", require("./routes/cartRoute"))
-app.use("/order", require("./routes/orderRoutes"))
-app.use("/employee", adminProtected, require("./routes/employeeRoute"))
-app.use("/auth", require("./routes/authRoute"))
-// app.use("/admin/product", require("./routes/productRoute"))
-app.use("/products", require("./routes/productRoute"))
+app.use("/api/user", require("./routes/userRoute"))
+app.use("/api/cart", require("./routes/cartRoute"))
+app.use("/api/order", require("./routes/orderRoutes"))
+app.use("/api/employee", adminProtected, require("./routes/employeeRoute"))
+app.use("/api/auth", require("./routes/authRoute"))
+app.use("/api/products", require("./routes/productRoute"))
 app.use("*", (req, res) => {
-    res.status(400).json({
-        message: "404:resourse you are lokking for is not available"
-    })
+    res.sendFile()
 })
 app.use(errorHandler)
 const PORT = process.env.PORT || 5000
